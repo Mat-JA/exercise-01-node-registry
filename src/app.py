@@ -24,6 +24,8 @@ from .database import engine, get_db
 
 app = FastAPI(title="Node Registry API")
 
+# Comentario para ejecutar actions
+
 # Create tables
 models.Base.metadata.create_all(bind=engine)
 
